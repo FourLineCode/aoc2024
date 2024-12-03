@@ -10,8 +10,8 @@ import (
 )
 
 func main() {
-	filename := "2.in"
-	data, err := os.ReadFile("inputs/" + filename)
+	filename := "day2/2.in"
+	data, err := os.ReadFile(filename)
 	if err != nil {
 		log.Fatalf("failed to read input file: %v", err)
 	}
